@@ -331,6 +331,10 @@ const nounsList = [
     { irregular: false, pl: 'wstążka', en: 'ribbon', note: '' },
     { irregular: false, pl: 'lato', en: 'sumer', note: '' },
     { irregular: false, pl: 'spotkanie', en: 'meeting', note: 'meeting<u>s</u>' },
+    { irregular: false, pl: 'morze', en: 'sea', note: 'sea<u>s</u>' },
+    { irregular: false, pl: 'dzwon / dzwonek', en: 'bell', note: 'bell<u>s</u>' },
+    { irregular: false, pl: 'aktywność / działanie', en: 'activity', note: 'activit<u>ies</u>' },
+    { irregular: false, pl: 'torebka / torba', en: 'bag', note: 'bag<u>s</u>' },
   ],
 ];
 
