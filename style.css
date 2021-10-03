@@ -83,16 +83,6 @@ input {
   border: 1px solid rgba(0, 0, 0, 0.178);
 }
 
-.group {
-  text-transform: uppercase;
-  cursor: pointer;
-  font-weight: 400;
-  font-size: 1rem;
-  padding: 0.2rem;
-  border: 3px solid #000;
-  border-radius: .2rem
-}
-
 /* == TABLE == */
 table {
   width: 60%;

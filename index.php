@@ -41,7 +41,6 @@
                 <p>Wyszukano: <span data-search="searched"></span></p>
             </div>
         </section>
-        <button type="button" class="group"  data-en="GROUP"> Grupuj</button>
         <table>
             <thead>
                 <tr class="sorting">

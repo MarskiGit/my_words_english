@@ -28,7 +28,6 @@ class ChangeTable {
     document.querySelector('[data-en="DSC"]').addEventListener('click', view.enDSC);
     document.querySelector('[data-irr="ASC"]').addEventListener('click', view.irrASC);
     document.querySelector('[data-irr="DSC"]').addEventListener('click', view.irrDSC);
-    document.querySelector('[data-en="GROUP"]').addEventListener('click', view.groupASC);
   }
   start() {
     view.details(verbsList[0][0]);
@@ -118,14 +117,10 @@ class View {
     this.sortArray(compare);
   };
   irrASC = () => {
-    let compare = (a, b) => (a.irregular > b.irregular ? 1 : b.irregular > a.irregular ? -1 : 0);
+    let compare = (a, b) => (a.group > b.group ? 1 : b.group > a.group ? -1 : 0);
     this.sortArray(compare);
   };
   irrDSC = () => {
-    let compare = (a, b) => (a.irregular < b.irregular ? 1 : b.irregular < a.irregular ? -1 : 0);
-    this.sortArray(compare);
-  };
-  groupASC = () => {
     let compare = (a, b) => (a.group < b.group ? 1 : b.group < a.group ? -1 : 0);
     this.sortArray(compare);
   };
@@ -204,6 +199,7 @@ class View {
     menuLinks.forEach((button) => button.classList.remove('activ_btn'));
     document.querySelector(`[data-btn="${data}"]`).classList.add('activ_btn');
     this.input.value = '';
+    this.searched.innerHTML = '';
   }
 }
 const view = new View();
