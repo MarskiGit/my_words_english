@@ -41,19 +41,22 @@
                 <p>Wyszukano: <span data-search="searched"></span></p>
             </div>
         </section>
+        <button type="button" class="group"  data-en="GROUP"> Grupuj</button>
         <table>
             <thead>
                 <tr class="sorting">
                     <th></th>
                     <th>
-                        <button data-pl="ASC"><i class="far fa-caret-square-up"></i></button> <button data-pl="DSC"><i class="far fa-caret-square-down"></i></button>
+                        <button type="button" data-pl="ASC"><i class="far fa-caret-square-up"></i></button>
+                        <button type="button" data-pl="DSC"><i class="far fa-caret-square-down"></i></button>
                     </th>
                     <th>
-                        <button data-en="ASC"><i class="far fa-caret-square-up"></i></button> <button data-en="DSC"><i class="far fa-caret-square-down"></i></button>
+                        <button type="button" data-en="ASC"><i class="far fa-caret-square-up"></i></button>
+                        <button type="button" data-en="DSC"><i class="far fa-caret-square-down"></i></button>
                     </th>
                     <th data-details="th">
-                        <button data-irr="ASC"><i class="far fa-caret-square-up"></i></button>
-                        <button data-irr="DSC"><i class="far fa-caret-square-down"></i></button>
+                        <button type="button" data-irr="ASC"><i class="far fa-caret-square-up"></i></button>
+                        <button type="button" data-irr="DSC"><i class="far fa-caret-square-down"></i></button>
                     </th>
                 </tr>
                 <tr>
