@@ -210,6 +210,10 @@ const verbsList = [
         { group: 1, pl: 'żeglować', en: 'sail', note: 'sail<u>ed</u>' },
         { group: 1, pl: 'twierdzić / utzymywać', en: 'claim', note: 'claim<u>ed</u>' },
         { group: 1, pl: 'kierwoać zarządzac', en: 'manage', note: 'manag<u>ed</u>' },
+        { group: 1, pl: 'przycinać / podcinać', en: 'trim', note: 'trim<u>ed</u>' },
+        { group: 1, pl: 'wyrzucać / pozbywać się', en: 'discard', note: 'discard<u>ed</u>' },
+        { group: 1, pl: 'kierować / zarządzać', en: 'manage', note: 'manag<u>ed</u>' },
+        { group: 1, pl: 'wydawać (pieniądze)', en: 'spend', note: 'spend<u>ed</u>' },
     ],
 ];
 

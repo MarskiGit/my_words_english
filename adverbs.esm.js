@@ -61,6 +61,7 @@ const adverbsList = [
         { group: 1, pl: 'dokładnie tak / dokładnie (tak samo)', en: 'exactly', note: '' },
         { group: 1, pl: 'dokładnie recz biorąc', en: 'generally', note: '' },
         { group: 1, pl: 'trzymać', en: 'hold', note: '' },
+        { group: 1, pl: 'wkrótce / niedługo', en: 'soon', note: '' },
     ],
 ];
 

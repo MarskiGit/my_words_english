@@ -19,6 +19,7 @@ const prepositionsList = [
         { group: 1, pl: 'na (o zmianie, np.: rozlać na obrus)', en: 'over', note: '' },
         { group: 1, pl: 'przez (kogoś, coś)', en: 'by', note: '' },
         { group: 1, pl: 'przeciwko / przeciw', en: 'against', note: '' },
+        { group: 1, pl: 'w czasie / podczas / w trakcie', en: 'during', note: '' },
     ],
 ];
 export default prepositionsList;
