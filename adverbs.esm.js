@@ -62,6 +62,8 @@ const adverbsList = [
         { group: 1, pl: 'dokładnie recz biorąc', en: 'generally', note: '' },
         { group: 1, pl: 'trzymać', en: 'hold', note: '' },
         { group: 1, pl: 'wkrótce / niedługo', en: 'soon', note: '' },
+        { group: 1, pl: 'nagle (szybko i niespodziewanie)', en: 'suddenly', note: '' },
+        { group: 1, pl: 'wciąż / nadal / nagle', en: 'still', note: '' },
     ],
 ];
 

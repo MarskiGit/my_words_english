@@ -7,6 +7,7 @@ import prepositionsList from './prepositions.esm.js';
 import loansList from './loans.esm.js';
 import phrasalVerbsList from './phrasalVerb.esm.js';
 import idiomList from './idiom.esm.js';
+import numberList from './numbers.esm.js';
 
 class ChangeTable {
     nav = document.querySelector('[data-nav="ul"]');
@@ -68,6 +69,10 @@ class ChangeTable {
             case 'idiom':
                 view.details(idiomList[0][0]);
                 view.render(idiomList[1]);
+                break;
+            case 'number':
+                view.details(numberList[0][0]);
+                view.render(numberList[1]);
                 break;
         }
         view.buttonStyle(this.menuLinks, data);
@@ -152,7 +157,7 @@ class View {
         tr.classList.add('hover');
         tr.innerHTML = `
                     <td>${index}</td>
-                    <td>${pl.trim()}</td>
+                    <td>${pl.toString().trim()}</td>
                     <td>${en.trim()}</td>
                     <td>${note.trim()}</td>
                     `;

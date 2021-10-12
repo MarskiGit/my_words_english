@@ -26,6 +26,7 @@
             <li><button class="btn_nav" data-btn="prepositions">Przyimki</button></li>
             <li><button class="btn_nav" data-btn="loans">Zaimki</button></li>
             <li><button class="btn_nav" data-btn="idiom">Idiomy</button></li>
+            <li><button class="btn_nav" data-btn="number">Liczby</button></li>
         </ul>
     </nav>
     <main>
@@ -35,7 +36,7 @@
         <section class="details_note" data-details="note"></section>
         <section>
             <label for="search">Szukaj:</label>
-            <input type="search" name="search" data-search="input" />
+            <input type="search" name="search" data-search="input" autofocus="autofocus" />
             <div class="number_words">
                 <p>Liczba słówek: <span data-search="quantity"></span></p>
                 <p>Wyszukano: <span data-search="searched"></span></p>

@@ -18,7 +18,6 @@ const loansList = [
         { group: 1, pl: 'się / siebie', en: 'yourself', note: '' },
         { group: 1, pl: 'przez (coś) (np.: napisany przez kogoś)', en: 'by', note: '' },
         { group: 1, pl: 'nikt', en: 'anybody', note: '' },
-        { group: 1, pl: 'nas / nam', en: 'us', note: '' },
         { group: 2.9, pl: 'mój / moja / moje', en: 'I -> me', note: '' },
         { group: 2.8, pl: 'ciebie / tobie / ci', en: 'you -> you', note: '' },
         { group: 2.7, pl: 'jego / jemu / go', en: 'he -> him', note: '' },
@@ -30,6 +29,7 @@ const loansList = [
         { group: 1, pl: 'nic', en: 'nothing', note: '' },
         { group: 1, pl: 'mnie / mi', en: 'me', note: '' },
         { group: 1, pl: 'ich / je / im / nich / nie / nim', en: 'them', note: '' },
+        { group: 1, pl: 'tamten / tamci', en: 'those, note', note: '' },
     ],
 ];
 export default loansList;

@@ -161,6 +161,9 @@ const adjectivesList = [
         { group: 1, pl: 'wybrany', en: 'chosen', note: '' },
         { group: 1, pl: 'widoczny / widzialny', en: 'visible', note: '' },
         { group: 1, pl: 'wylany (zwolniony z pracy)', en: 'fired', note: '' },
+        { group: 1, pl: 'codzienny', en: 'everyday', note: '' },
+        { group: 1, pl: 'każdy', en: 'every', note: '' },
+        { group: 1, pl: 'jasny (pełny światła)', en: 'bright', note: '' },
     ],
 ];
 
