@@ -215,6 +215,7 @@ const verbsList = [
         { group: 1, pl: 'kierować / zarządzać', en: 'manage', note: 'manag<u>ed</u>' },
         { group: 1, pl: 'wydawać (pieniądze)', en: 'spend', note: 'spend<u>ed</u>' },
         { group: 1, pl: 'postanawiać / zdecydować', en: 'decide', note: 'decide<u>ed</u>' },
+        { group: 1, pl: 'recomendować / polecać', en: 'recommend', note: 'recommend<u>ed</u>' },
     ],
 ];
 

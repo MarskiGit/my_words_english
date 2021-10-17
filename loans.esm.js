@@ -30,6 +30,7 @@ const loansList = [
         { group: 1, pl: 'mnie / mi', en: 'me', note: '' },
         { group: 1, pl: 'ich / je / im / nich / nie / nim', en: 'them', note: '' },
         { group: 1, pl: 'tamten / tamci', en: 'those, note', note: '' },
+        { group: 1, pl: 'coś', en: 'something', note: '' },
     ],
 ];
 export default loansList;

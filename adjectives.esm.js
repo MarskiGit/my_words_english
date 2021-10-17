@@ -26,7 +26,7 @@ const adjectivesList = [
         { group: 1, pl: 'potrzebny / niezbędny / konieczy', en: 'necessary', note: '' },
         { group: 1, pl: 'straszny / okropny / paskudny', en: 'terrible', note: '' },
         { group: 1, pl: 'oktopny / wstrętny / obrzydliwy', en: 'awful', note: '' },
-        { group: 1, pl: 'dostępny / osiągalny', en: 'awful', note: '' },
+        { group: 1, pl: 'dostępny / osiągalny', en: 'available', note: '' },
         { group: 1, pl: 'zajęty / zapracowany', en: 'busy', note: '' },
         { group: 1, pl: 'gorszy', en: 'worse', note: '' },
         { group: 1, pl: 'interesujący', en: 'interesting', note: '' },

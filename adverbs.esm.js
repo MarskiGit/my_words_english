@@ -64,6 +64,17 @@ const adverbsList = [
         { group: 1, pl: 'wkrótce / niedługo', en: 'soon', note: '' },
         { group: 1, pl: 'nagle (szybko i niespodziewanie)', en: 'suddenly', note: '' },
         { group: 1, pl: 'wciąż / nadal / nagle', en: 'still', note: '' },
+        { group: 2, pl: 'zawsze', en: 'always', note: '' },
+        { group: 2, pl: 'często', en: 'often', note: '' },
+        { group: 2, pl: 'czasami', en: 'sometimes', note: '' },
+        { group: 2, pl: 'zazwyczaj / zwykle', en: 'usually', note: '' },
+        { group: 2, pl: 'nigdy', en: 'never', note: '' },
+        { group: 2, pl: 'żadko', en: 'seldom / reraly', note: '' },
+        { group: 2, pl: 'codziennie', en: 'every day', note: '' },
+        { group: 2, pl: 'raz', en: 'once', note: '' },
+        { group: 2, pl: 'około / mniej więcej', en: 'about', note: '' },
+        { group: 1, pl: 'stale / ciągle', en: 'constantly', note: '' },
+        { group: 1, pl: 'również / także / też / ponadto', en: 'also', note: '' },
     ],
 ];
 
