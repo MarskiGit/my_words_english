@@ -69,7 +69,7 @@ const adverbsList = [
         { group: 2, pl: 'czasami', en: 'sometimes', note: '' },
         { group: 2, pl: 'zazwyczaj / zwykle', en: 'usually', note: '' },
         { group: 2, pl: 'nigdy', en: 'never', note: '' },
-        { group: 2, pl: 'żadko', en: 'seldom / reraly', note: '' },
+        { group: 2, pl: 'rzadko', en: 'seldom / reraly', note: '' },
         { group: 2, pl: 'codziennie', en: 'every day', note: '' },
         { group: 2, pl: 'raz', en: 'once', note: '' },
         { group: 2, pl: 'około / mniej więcej', en: 'about', note: '' },

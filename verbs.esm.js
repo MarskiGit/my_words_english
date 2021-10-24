@@ -216,6 +216,7 @@ const verbsList = [
         { group: 1, pl: 'wydawać (pieniądze)', en: 'spend', note: 'spend<u>ed</u>' },
         { group: 1, pl: 'postanawiać / zdecydować', en: 'decide', note: 'decide<u>ed</u>' },
         { group: 1, pl: 'recomendować / polecać', en: 'recommend', note: 'recommend<u>ed</u>' },
+        { group: 1, pl: 'wchodzić', en: 'enter', note: 'enter<u>ed</u>' },
     ],
 ];
 

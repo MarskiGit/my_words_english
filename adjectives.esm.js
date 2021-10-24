@@ -56,7 +56,7 @@ const adjectivesList = [
         { group: 1, pl: 'późny / spóźniony', en: 'late', note: '' },
         { group: 1, pl: 'lepszy', en: 'better', note: '' },
         { group: 1, pl: 'cały', en: 'whole', note: '' },
-        { group: 1, pl: 'użyteczny / pożyteczny / przydaty', en: 'useful / hamdy', note: '' },
+        { group: 1, pl: 'użyteczny / pożyteczny / przydaty', en: 'useful / handy', note: '' },
         { group: 1, pl: 'inny / pozostały', en: 'other', note: '' },
         { group: 1, pl: 'perfekcyjny / doskonały', en: 'perfect', note: '' },
         { group: 1, pl: 'zimny', en: 'cold', note: '' },
