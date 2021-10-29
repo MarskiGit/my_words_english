@@ -71,11 +71,14 @@ const adverbsList = [
         { group: 2, pl: 'nigdy', en: 'never', note: '' },
         { group: 2, pl: 'rzadko', en: 'seldom / reraly', note: '' },
         { group: 2, pl: 'codziennie', en: 'every day', note: '' },
-        { group: 2, pl: 'raz', en: 'once', note: '' },
+        { group: 2, pl: 'od czasu do czasu', en: 'from time to time', note: '' },
         { group: 2, pl: 'około / mniej więcej', en: 'about', note: '' },
         { group: 1, pl: 'stale / ciągle', en: 'constantly', note: '' },
         { group: 1, pl: 'również / także / też / ponadto', en: 'also', note: '' },
+        { group: 2, pl: 'raz / jeden raz / jednokrotnie', en: 'once', note: '' },
+        { group: 2, pl: 'dwa razy / dwukrotnie', en: 'twice', note: '' },
     ],
 ];
 
+// PRZSŁÓWKI
 export default adverbsList;
