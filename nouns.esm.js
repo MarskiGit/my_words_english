@@ -297,7 +297,6 @@ const nounsList = [
         { group: 1, pl: 'krokodyl', en: 'crocodile', note: 'crocodile<u>s</u>' },
         { group: 1, pl: 'kwiat', en: 'flower', note: 'flower<u>s</u>' },
         { group: 1, pl: 'róża', en: 'rose', note: 'rose<u>s</u>' },
-        { group: 1, pl: 'tulipan', en: 'tulip', note: 'tulip<u>s</u>' },
         { group: 1, pl: 'trawa', en: 'grass', note: 'grass<u>es</u>' },
         { group: 1, pl: 'grzyb', en: 'mushroom', note: 'mushroom<u>s</u>' },
         { group: 1, pl: 'krzak / krzew', en: 'bush', note: 'bush<u>es</u>' },
@@ -404,6 +403,7 @@ const nounsList = [
         { group: 6.1, pl: 'zachód', en: 'west', note: '' },
         { group: 1, pl: 'kwadrns', en: 'quarter', note: '' },
         { group: 1, pl: 'teraźniejszość / współczesność / chwila obecna', en: 'present', note: 'present<u>s</u>' },
+        { group: 1, pl: 'cierpliwość', en: 'patience', note: 'patience<u>s</u>' },
     ],
 ];
 

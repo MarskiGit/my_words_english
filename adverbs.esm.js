@@ -42,7 +42,6 @@ const adverbsList = [
         { group: 1, pl: 'zbyt', en: 'too', note: '' },
         { group: 1, pl: 'całkiem / dość / dośyć', en: 'quite', note: '' },
         { group: 1, pl: 'naprawdę  / bardzo', en: 'really', note: '' },
-        { group: 1, pl: 'zwykle / zazwyczaj / na ogół', en: 'usually', note: '' },
         { group: 1, pl: 'często', en: 'often', note: '' },
         { group: 1, pl: 'nigdy', en: 'never', note: '' },
         { group: 1, pl: 'zawsze', en: 'always', note: '' },
