@@ -272,7 +272,7 @@ const nounsList = [
         { group: 1, pl: 'proces podejmowania decyzji', en: 'decision-making', note: 'headhunter<u>s</u>' },
         { group: 1, pl: 'predyspozycja / skłonności', en: 'predisposition', note: 'predisposition<u>s</u>' },
         { group: 1, pl: 'optymalizowanie', en: 'optimizing', note: 'optimizing<u>s</u>' },
-        { group: 1, pl: 'zrównoważony rzwój', en: 'sustainability', note: 'sustainability<u>s</u>' },
+        { group: 1, pl: 'zrównoważony rowój', en: 'sustainability', note: 'sustainability<u>s</u>' },
         { group: 1, pl: 'poświęcenie / oddanie', en: 'commitment', note: 'commitment<u>s</u>' },
         { group: 1, pl: 'wyposażenie / sprzęt', en: 'equipment', note: 'equipment<u>s</u>' },
         { group: 1, pl: 'rozmowa', en: 'talk', note: 'talk<u>s</u>' },
@@ -404,7 +404,9 @@ const nounsList = [
         { group: 1, pl: 'kwadrns', en: 'quarter', note: '' },
         { group: 1, pl: 'teraźniejszość / współczesność / chwila obecna', en: 'present', note: 'present<u>s</u>' },
         { group: 1, pl: 'cierpliwość', en: 'patience', note: 'patience<u>s</u>' },
+        { group: 1, pl: 'wolny czas', en: 'free time', note: 'free time<u>s</u>' },
     ],
 ];
 
+// rzeczowniki
 export default nounsList;

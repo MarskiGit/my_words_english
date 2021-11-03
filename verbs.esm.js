@@ -217,7 +217,11 @@ const verbsList = [
         { group: 1, pl: 'postanawiać / zdecydować', en: 'decide', note: 'decide<u>ed</u>' },
         { group: 1, pl: 'rekomendować / polecać', en: 'recommend', note: 'recommend<u>ed</u>' },
         { group: 1, pl: 'wchodzić', en: 'enter', note: 'enter<u>ed</u>' },
+        { group: 1, pl: 'relaksować się / odprężać się / rozluźniać', en: 'relax', note: 'relax<u>ed</u>' },
+        { group: 1, pl: 'jeździć na łyrzwach', en: 'skate', note: 'skate<u>d</u>' },
+        { group: 1, pl: 'drzemać / zdrzemnąć się', en: 'nap', note: 'nap<u>ed</u>' },
     ],
 ];
 
+// Czasowniki
 export default verbsList;
