@@ -33,21 +33,18 @@ const adjectivesList = [
         { group: 1, pl: 'darmowy / wolny / bezpłatny', en: 'free', note: '' },
         { group: 1, pl: 'cudowny / wspaniały', en: 'wonderful', note: '' },
         { group: 1, pl: 'gotowy', en: 'ready', note: '' },
-        { group: 1, pl: 'lepszy', en: 'better', note: '' },
         { group: 1, pl: 'ciężki', en: 'heavy', note: '' },
         { group: 1, pl: 'nudny', en: 'boring', note: '' },
         { group: 1, pl: 'idealny', en: 'ideal', note: '' },
         { group: 1, pl: 'wolny', en: 'slow', note: '' },
         { group: 1, pl: 'szybki', en: 'fast', note: '' },
         { group: 1, pl: 'nowy', en: 'new', note: '' },
-        { group: 1, pl: 'dobry', en: 'good', note: '' },
         { group: 1, pl: 'wysoki', en: 'high', note: '' },
         { group: 1, pl: 'stary', en: 'old', note: '' },
         { group: 1, pl: 'duży / wielki', en: 'big', note: '' },
-        { group: 1, pl: 'mały', en: 'small', note: '' },
         { group: 1, pl: 'różny', en: 'different', note: '' },
         { group: 1, pl: 'długi', en: 'long', note: '' },
-        { group: 1, pl: 'mały', en: 'little', note: '' },
+        { group: 1, pl: 'mały', en: 'little / small', note: '' },
         { group: 1, pl: 'ważny', en: 'important', note: '' },
         { group: 1, pl: 'niedobry / zły', en: 'bad', note: '' },
         { group: 1, pl: 'rzeczywisty / realny', en: 'real', note: '' },
@@ -168,4 +165,5 @@ const adjectivesList = [
     ],
 ];
 
+// Przymiotniki
 export default adjectivesList;

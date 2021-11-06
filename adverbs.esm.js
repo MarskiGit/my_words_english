@@ -43,8 +43,6 @@ const adverbsList = [
         { group: 1, pl: 'całkiem / dość / dośyć', en: 'quite', note: '' },
         { group: 1, pl: 'naprawdę  / bardzo', en: 'really', note: '' },
         { group: 1, pl: 'często', en: 'often', note: '' },
-        { group: 1, pl: 'nigdy', en: 'never', note: '' },
-        { group: 1, pl: 'zawsze', en: 'always', note: '' },
         { group: 1, pl: 'teraz', en: 'now', note: '' },
         { group: 1, pl: 'jutro', en: 'tomorrow', note: '' },
         { group: 1, pl: 'dzisiaj', en: 'today', note: '' },
@@ -64,7 +62,6 @@ const adverbsList = [
         { group: 1, pl: 'nagle (szybko i niespodziewanie)', en: 'suddenly', note: '' },
         { group: 1, pl: 'wciąż / nadal / nagle', en: 'still', note: '' },
         { group: 2, pl: 'zawsze', en: 'always', note: '' },
-        { group: 2, pl: 'często', en: 'often', note: '' },
         { group: 2, pl: 'czasami', en: 'sometimes', note: '' },
         { group: 2, pl: 'zazwyczaj / zwykle', en: 'usually', note: '' },
         { group: 2, pl: 'nigdy', en: 'never', note: '' },
@@ -76,6 +73,10 @@ const adverbsList = [
         { group: 1, pl: 'również / także / też / ponadto', en: 'also', note: '' },
         { group: 2, pl: 'raz / jeden raz / jednokrotnie', en: 'once', note: '' },
         { group: 2, pl: 'dwa razy / dwukrotnie', en: 'twice', note: '' },
+        { group: 1, pl: 'ostatnio', en: 'lately', note: '' },
+        { group: 1, pl: 'już (już miało miejsce, zdażyło się - w przeszłości)', en: 'already', note: '' },
+        { group: 1, pl: 'kiedykolwiek / zawsze (nigdy w zaprzeczeniu)', en: 'ever', note: '' },
+        { group: 1, pl: 'ostatnio / niedawno', en: 'recently', note: '' },
     ],
 ];
 

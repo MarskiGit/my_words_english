@@ -1,5 +1,6 @@
 'use strict';
-import verbsList from './verbs.esm.js';
+import regularVerbsList from './regularVerbs.esm.js';
+import irregularVerbsList from './irregularVerbs.esm.js';
 import nounsList from './nouns.esm.js';
 import adjectivesList from './adjectives.esm.js';
 import adverbsList from './adverbs.esm.js';
@@ -8,6 +9,7 @@ import loansList from './loans.esm.js';
 import phrasalVerbsList from './phrasalVerb.esm.js';
 import idiomList from './idiom.esm.js';
 import numberList from './numbers.esm.js';
+import conjunctionList from './conjunction.esm.js';
 
 class ChangeTable {
     nav = document.querySelector('[data-nav="ul"]');
@@ -31,16 +33,20 @@ class ChangeTable {
         document.querySelector('[data-irr="DSC"]').addEventListener('click', view.irrDSC);
     }
     start() {
-        view.details(verbsList[0][0]);
-        view.render(verbsList[1]);
-        document.querySelector(`[data-btn="verb"]`).classList.add('activ_btn');
+        view.details(regularVerbsList[0][0]);
+        view.render(regularVerbsList[1]);
+        document.querySelector(`[data-btn="regularVerbs"]`).classList.add('activ_btn');
     }
     handleClick = (target) => {
         let data = target.getAttribute('data-btn');
         switch (data) {
-            case 'verb':
-                view.details(verbsList[0][0]);
-                view.render(verbsList[1]);
+            case 'regularVerbs':
+                view.details(regularVerbsList[0][0]);
+                view.render(regularVerbsList[1]);
+                break;
+            case 'irregularVerbs':
+                view.details(irregularVerbsList[0][0]);
+                view.render(irregularVerbsList[1]);
                 break;
             case 'nouns':
                 view.details(nounsList[0][0]);
@@ -73,6 +79,10 @@ class ChangeTable {
             case 'number':
                 view.details(numberList[0][0]);
                 view.render(numberList[1]);
+                break;
+            case 'conjunction':
+                view.details(conjunctionList[0][0]);
+                view.render(conjunctionList[1]);
                 break;
         }
         view.buttonStyle(this.menuLinks, data);
@@ -133,6 +143,7 @@ class View {
         if (this.searchIrregularVerb.length) this.searchIrregularVerb.length = 0;
 
         let str = target.value.trim().toLowerCase();
+
         this.irregularVerb.forEach((obj) => {
             if (obj.pl.includes(str) || obj.en.includes(str) || obj.note.includes(str)) {
                 this.searchIrregularVerb.push(obj);

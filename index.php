@@ -18,8 +18,9 @@
 <body>
     <nav>
         <ul data-nav="ul">
-            <li><button class="btn_nav" data-btn="verb">Czasowniki</button></li>
-            <li><button class="btn_nav" data-btn="phrasal">Frazale</button></li>
+            <li><button class="btn_nav" data-btn="regularVerbs">Czas. Reguralne</button></li>
+            <li><button class="btn_nav" data-btn="irregularVerbs">Czas. Nieregularne</button></li>
+            <li><button class="btn_nav" data-btn="phrasal">Czas. Frazalne</button></li>
             <li><button class="btn_nav" data-btn="nouns">Rzeczowniki</button></li>
             <li><button class="btn_nav" data-btn="adjectives">Przymiotniki</button></li>
             <li><button class="btn_nav" data-btn="adverbs">Przysłówki</button></li>
@@ -27,6 +28,7 @@
             <li><button class="btn_nav" data-btn="loans">Zaimki</button></li>
             <li><button class="btn_nav" data-btn="idiom">Idiomy</button></li>
             <li><button class="btn_nav" data-btn="number">Liczby</button></li>
+            <li><button class="btn_nav" data-btn="conjunction">Spójnik</button></li>
         </ul>
     </nav>
     <main>

@@ -30,7 +30,6 @@ const phrasalVerbsList = [
         { group: 1, pl: 'wyjść / wychodzić', en: 'come out', note: 'come' },
         { group: 1, pl: 'dojść do siebie', en: 'come round', note: 'come' },
         { group: 1, pl: 'warcać', en: 'come back', note: 'come' },
-        { group: 1, pl: 'przyjść do', en: 'come to', note: 'come' },
         { group: 1, pl: 'pojawić się', en: 'come up', note: 'come' },
         { group: 1, pl: 'przyjść do', en: 'come up to', note: 'come' },
         { group: 1, pl: 'sprawdzać', en: 'check out', note: 'check' },
@@ -60,6 +59,8 @@ const phrasalVerbsList = [
         { group: 1, pl: 'sprawdzić', en: 'go over', note: 'go' },
         { group: 1, pl: 'podjąć trud / udać się do', en: 'go to', note: 'go' },
         { group: 1, pl: 'wzrastać / być stawianym (np.: budynek)', en: 'go up', note: 'go' },
+        { group: 1, pl: 'wejść', en: 'get in', note: 'get' },
+        { group: 1, pl: 'wyjść / wyjeżdżać', en: 'get out', note: 'get' },
     ],
 ];
 export default phrasalVerbsList;
