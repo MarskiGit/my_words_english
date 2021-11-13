@@ -404,6 +404,8 @@ const nounsList = [
         { group: 1, pl: 'wolny czas', en: 'free time', note: 'free time<u>s</u>' },
         { group: 1, pl: 'balkon', en: 'balcony', note: 'balcon<u>ies</u>' },
         { group: 1, pl: 'dziennik / pamiętnik', en: 'diary', note: 'diary<u>ies</u>' },
+        { group: 1, pl: 'emocja / uczucie', en: 'emotion', note: 'emotin<u>s</u>' },
+        { group: 1, pl: 'uczeń', en: 'pupil', note: 'pupil<u>s</u>' },
     ],
 ];
 

@@ -126,6 +126,10 @@ const regularVerbsList = [
         { group: 1, pl: 'krzyczeć', en: 'shout', note: 'shout<u>ed</u>' },
         { group: 1, pl: 'zbliżać się / podchodzić', en: 'approach', note: 'approach<u>ed</u>' },
         { group: 1, pl: 'gwarantować', en: 'guarantee', note: 'guarante<u>ed</u>' },
+        { group: 1, pl: 'tłumaczyć / objaśniać', en: 'explain', note: 'explain<u>ed</u>' },
+        { group: 1, pl: 'chybiać / nie trafiać / mijać', en: 'miss', note: 'miss<u>ed</u>' },
+        { group: 1, pl: 'uczyć się (zdobywać nową wiedzę)', en: 'learn', note: 'learn<u>ed</u>' },
+        { group: 1, pl: 'uczyć się (np. do testu)', en: 'study', note: 'study<u>ied</u>' },
     ],
 ];
 

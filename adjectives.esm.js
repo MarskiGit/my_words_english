@@ -162,6 +162,7 @@ const adjectivesList = [
         { group: 1, pl: 'każdy', en: 'every', note: '' },
         { group: 1, pl: 'jasny (pełny światła)', en: 'bright', note: '' },
         { group: 1, pl: 'najbliższy', en: 'nearest', note: '' },
+        { group: 1, pl: 'uczciwy', en: 'honest', note: '' },
     ],
 ];
 

@@ -77,6 +77,10 @@ const adverbsList = [
         { group: 1, pl: 'już (już miało miejsce, zdażyło się - w przeszłości)', en: 'already', note: '' },
         { group: 1, pl: 'kiedykolwiek / zawsze (nigdy w zaprzeczeniu)', en: 'ever', note: '' },
         { group: 1, pl: 'ostatnio / niedawno', en: 'recently', note: '' },
+        { group: 1, pl: 'natępnie / potem', en: 'then', note: '' },
+        { group: 1, pl: 'wczoraj', en: 'yesterday', note: '' },
+        { group: 1, pl: 'nie więcej / juź nie (w zaprzeceniu)', en: 'anymore', note: '' },
+        { group: 1, pl: 'temu (np. dwie godziny)', en: 'ago', note: '' },
     ],
 ];
 
