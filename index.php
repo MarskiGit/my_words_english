@@ -57,8 +57,8 @@
                         <button type="button" data-en="DSC"><i class="far fa-caret-square-down"></i></button>
                     </th>
                     <th data-details="th">
-                        <button type="button" data-irr="ASC"><i class="far fa-caret-square-up"></i></button>
-                        <button type="button" data-irr="DSC"><i class="far fa-caret-square-down"></i></button>
+                        <button type="button" data-irr="ASC"></button>
+                        <button type="button" data-irr="DSC"></button>
                     </th>
                 </tr>
                 <tr>
