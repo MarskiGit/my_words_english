@@ -4,8 +4,8 @@ const irregularVerbsList = [
         {
             h1: 'CZASOWNIKI Nieregularne',
             table: {
-                note1: 'present participle',
-                note2: 'past participle',
+                note1: 'Bezokolicznik',
+                note2: 'past tense / past participle',
             },
             note: {},
         },
@@ -45,7 +45,7 @@ const irregularVerbsList = [
         { group: 1, pl: 'budować', en: 'build', note: 'built / built' },
         { group: 1, pl: 'świecić się / błyszcześ', en: 'shine', note: 'shone / shined' },
         { group: 1, pl: 'kupować', en: 'buy', note: 'bought / bought' },
-        { group: 1, pl: 'uczyć się  dowiedzieć się', en: 'learn', note: 'learnt / learnt' },
+        { group: 1, pl: 'uczyć się / dowiedzieć się', en: 'learn', note: 'learnt / learnt' },
         { group: 1, pl: 'płacić', en: 'pay', note: 'paid / paid' },
         { group: 1, pl: 'sprzedać', en: 'sell', note: 'sold / sold' },
         { group: 1, pl: 'spędzać', en: 'spend', note: 'spent / spent' },
@@ -115,7 +115,7 @@ const irregularVerbsList = [
         { group: 1, pl: 'powiedzieć', en: 'say', note: 'said / said' },
         { group: 1, pl: 'zamykać', en: 'shut', note: 'shut / shut' },
         { group: 1, pl: 'przyklejać / naklejać', en: 'stick', note: 'stuck / stuck' },
-        { group: 1, pl: 'uczyć', en: 'teach', note: 'taught / taught' },
+        { group: 1, pl: 'uczyć (kogoś)', en: 'teach', note: 'taught / taught' },
     ],
 ];
 

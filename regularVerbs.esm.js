@@ -4,8 +4,8 @@ const regularVerbsList = [
         {
             h1: 'CZASOWNIKI Regularne',
             table: {
-                note1: 'present participle',
-                note2: 'past participle',
+                note1: 'bezokolicznik',
+                note2: 'past tense = past participle',
             },
             note: {},
         },
