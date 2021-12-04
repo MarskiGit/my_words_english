@@ -81,6 +81,7 @@ const adverbsList = [
         { group: 1, pl: 'wczoraj', en: 'yesterday', note: '' },
         { group: 1, pl: 'nie więcej / juź nie (w zaprzeceniu)', en: 'anymore', note: '' },
         { group: 1, pl: 'temu (np. dwie godziny)', en: 'ago', note: '' },
+        { group: 1, pl: 'nie więcej / już nie', en: 'anymore', note: '' },
     ],
 ];
 

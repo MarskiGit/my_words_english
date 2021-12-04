@@ -4,8 +4,8 @@ const irregularVerbsList = [
         {
             h1: 'CZASOWNIKI Nieregularne',
             table: {
-                note1: 'Bezokolicznik',
-                note2: 'past tense / past participle',
+                note1: 'past tense',
+                note2: 'past participle',
             },
             note: {},
         },

@@ -406,6 +406,10 @@ const nounsList = [
         { group: 1, pl: 'dziennik / pamiętnik', en: 'diary', note: 'diary<u>ies</u>' },
         { group: 1, pl: 'emocja / uczucie', en: 'emotion', note: 'emotin<u>s</u>' },
         { group: 1, pl: 'uczeń', en: 'pupil', note: 'pupil<u>s</u>' },
+        { group: 1, pl: 'przedszkole', en: 'nursery school', note: 'nursery school<u>s</u>' },
+        { group: 1, pl: 'konserwacja / pielęgnacja / utrzymanie', en: 'maintenance', note: 'maintenance<u>s</u>' },
+        { group: 1, pl: 'przerwa szkolna', en: 'brake', note: 'brke<u>s</u>' },
+        { group: 1, pl: 'niedobór / brak', en: 'deficity', note: 'deficit<u>ies</u>' },
     ],
 ];
 
