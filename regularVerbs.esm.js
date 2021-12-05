@@ -116,7 +116,7 @@ const regularVerbsList = [
         { group: 1, pl: 'wyrzucać / pozbywać się', en: 'discard', note: 'discard<u>ed</u>' },
         { group: 1, pl: 'kierować / zarządzać', en: 'manage', note: 'manag<u>ed</u>' },
         { group: 1, pl: 'wydawać (pieniądze)', en: 'spend', note: 'spend<u>ed</u>' },
-        { group: 1, pl: 'postanawiać / zdecydować', en: 'decide', note: 'decide<u>ed</u>' },
+        { group: 1, pl: 'postanawiać / zdecydować', en: 'decide', note: 'decid<u>ed</u>' },
         { group: 1, pl: 'rekomendować / polecać', en: 'recommend', note: 'recommend<u>ed</u>' },
         { group: 1, pl: 'wchodzić', en: 'enter', note: 'enter<u>ed</u>' },
         { group: 1, pl: 'relaksować się / odprężać się / rozluźniać', en: 'relax', note: 'relax<u>ed</u>' },
@@ -130,6 +130,7 @@ const regularVerbsList = [
         { group: 1, pl: 'chybiać / nie trafiać / mijać', en: 'miss', note: 'miss<u>ed</u>' },
         { group: 1, pl: 'uczyć się (zdobywać nową wiedzę)', en: 'learn', note: 'learn<u>ed</u>' },
         { group: 1, pl: 'uczyć się (np. do testu)', en: 'study', note: 'study<u>ied</u>' },
+        { group: 1, pl: 'opieka', en: 'care', note: 'car<u>ed</u>' },
     ],
 ];
 

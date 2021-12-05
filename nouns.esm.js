@@ -410,6 +410,17 @@ const nounsList = [
         { group: 1, pl: 'konserwacja / pielęgnacja / utrzymanie', en: 'maintenance', note: 'maintenance<u>s</u>' },
         { group: 1, pl: 'przerwa szkolna', en: 'brake', note: 'brke<u>s</u>' },
         { group: 1, pl: 'niedobór / brak', en: 'deficity', note: 'deficit<u>ies</u>' },
+        { group: 1, pl: 'chemia', en: 'chemistry', note: 'chemistr<u>ies</u>' },
+        { group: 1, pl: 'ocena', en: 'mark', note: 'mark<u>s</u>' },
+        { group: 1, pl: 'sztuka (dziedzina, artstyczna)', en: 'art', note: 'art<u>s</u>' },
+        { group: 1, pl: 'semestr', en: 'term', note: 'term<u>s</u>' },
+        { group: 1, pl: 'historia', en: 'history', note: 'histor<u>ies</u>' },
+        { group: 1, pl: 'biologia', en: 'biology', note: 'biolog<u>ies</u>' },
+        { group: 1, pl: 'matematyka', en: 'mathematics', note: 'mathematic<u>es</u>' },
+        { group: 1, pl: 'lekcja', en: 'lesson', note: 'lesson<u>s</u>' },
+        { group: 1, pl: 'fizyka', en: 'physics', note: 'physic<u>es</u>' },
+        { group: 1, pl: 'przedmiot (w szkole)', en: 'subject', note: 'subject<u>s</u>' },
+        { group: 1, pl: 'geografia', en: 'geography', note: 'geograph<u>ies</u>' },
     ],
 ];
 

@@ -20,6 +20,7 @@ const prepositionsList = [
         { group: 1, pl: 'przeciwko / przeciw', en: 'against', note: '' },
         { group: 1, pl: 'w czasie / podczas / w trakcie', en: 'during', note: '' },
         { group: 1, pl: 'od / od czasu / od tego czasu', en: 'since', note: '' },
+        { group: 1, pl: 'wokół / dokoła / naokoło', en: 'around', note: '' },
     ],
 ];
 export default prepositionsList;

@@ -112,7 +112,7 @@ const irregularVerbsList = [
         { group: 1, pl: 'zakładać się / obstawiać (pieniądze)', en: 'bet', note: 'bet / bet' },
         { group: 1, pl: 'prowadzić / kierwoać', en: 'drive', note: 'drove / driven' },
         { group: 1, pl: 'zamrarzać', en: 'freeze', note: 'froze / fozen' },
-        { group: 1, pl: 'powiedzieć', en: 'say', note: 'said / said' },
+        { group: 1, pl: 'powiedzieć (coś do kogoś)', en: 'say', note: 'said / said' },
         { group: 1, pl: 'zamykać', en: 'shut', note: 'shut / shut' },
         { group: 1, pl: 'przyklejać / naklejać', en: 'stick', note: 'stuck / stuck' },
         { group: 1, pl: 'uczyć (kogoś)', en: 'teach', note: 'taught / taught' },
