@@ -38,6 +38,7 @@ class ChangeTable {
         document.querySelector(`[data-btn="regularVerbs"]`).classList.add('activ_btn');
     }
     handleClick = (target) => {
+        document.querySelector('[data-search]').focus();
         let data = target.getAttribute('data-btn');
         switch (data) {
             case 'regularVerbs':
@@ -104,6 +105,7 @@ class View {
 
     lastindexTr;
     init() {
+        this.input.focus();
         this.eventListeners();
     }
     render(obj) {
@@ -113,8 +115,15 @@ class View {
         this.plASC();
     }
     eventListeners() {
-        document.querySelector('[data-search]').addEventListener('input', this.debounced(this.search, 500));
+        document.querySelector('[data-search="clear"]').addEventListener('click', this.clear);
+        this.input.addEventListener('input', this.debounced(this.search, 500));
     }
+    clear = () => {
+        const event = { target: { value: '' } };
+        this.input.value = '';
+        this.input.focus();
+        this.search(event);
+    };
     plASC = () => {
         let compare = (a, b) => (a.pl > b.pl ? 1 : b.pl > a.pl ? -1 : 0);
         this.sortArray(compare);

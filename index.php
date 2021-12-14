@@ -38,7 +38,8 @@
         <section class="details_note" data-details="note"></section>
         <section>
             <label for="search">Szukaj:</label>
-            <input type="search" name="search" data-search="input" autofocus="autofocus" />
+            <input type="search" name="search" data-search="input" autofocus="autofocus" required /><span data-search="clear" class="clear"></span>
+
             <div class="number_words">
                 <p>Liczba słówek: <span data-search="quantity"></span></p>
                 <p>Wyszukano: <span data-search="searched"></span></p>

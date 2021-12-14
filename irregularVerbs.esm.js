@@ -97,7 +97,7 @@ const irregularVerbsList = [
         { group: 1, pl: 'leżeć', en: 'lie', note: 'lay / lain' },
         { group: 1, pl: 'trzymać / zostawić / hodować', en: 'keep', note: 'kept / kept' },
         { group: 1, pl: 'pytać', en: 'ask', note: 'asked / asked' },
-        { group: 1, pl: 'biegać', en: 'run', note: 'ran / ran' },
+        { group: 1, pl: 'biegać', en: 'run', note: 'ran / run' },
         { group: 1, pl: 'spotykać / poznawać', en: 'meet', note: 'met / met' },
         { group: 1, pl: 'zakazać / zabraniać', en: 'forbid', note: 'forbade / forbidden' },
         { group: 1, pl: 'opuścić / porzucić', en: 'forsake', note: 'forsook' },

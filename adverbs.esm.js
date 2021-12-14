@@ -68,7 +68,7 @@ const adverbsList = [
         { group: 2, pl: 'rzadko', en: 'seldom / reraly', note: '' },
         { group: 2, pl: 'codziennie', en: 'every day', note: '' },
         { group: 2, pl: 'od czasu do czasu', en: 'from time to time', note: '' },
-        { group: 2, pl: 'około / mniej więcej', en: 'about', note: '' },
+        { group: 2, pl: 'około / mniej więcej', en: 'about / around', note: '' },
         { group: 1, pl: 'stale / ciągle', en: 'constantly', note: '' },
         { group: 1, pl: 'również / także / też / ponadto', en: 'also', note: '' },
         { group: 2, pl: 'raz / jeden raz / jednokrotnie', en: 'once', note: '' },
@@ -81,8 +81,9 @@ const adverbsList = [
         { group: 1, pl: 'wczoraj', en: 'yesterday', note: '' },
         { group: 1, pl: 'nie więcej / juź nie (w zaprzeceniu)', en: 'anymore', note: '' },
         { group: 1, pl: 'temu (np. dwie godziny)', en: 'ago', note: '' },
-        { group: 1, pl: 'nie więcej / już nie', en: 'anymore', note: '' },
         { group: 1, pl: 'nagle (szybko i niespodziewanie)', en: 'sudennly', note: '' },
+        { group: 1, pl: 'pewnego dnia / kiedyś (w przeszłości)', en: 'someday', note: '' },
+        { group: 1, pl: 'następnie / potem', en: 'then', note: '' },
     ],
 ];
 

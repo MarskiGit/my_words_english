@@ -130,7 +130,6 @@ const regularVerbsList = [
         { group: 1, pl: 'chybiać / nie trafiać / mijać', en: 'miss', note: 'miss<u>ed</u>' },
         { group: 1, pl: 'uczyć się (zdobywać nową wiedzę)', en: 'learn', note: 'learn<u>ed</u>' },
         { group: 1, pl: 'uczyć się (np. do testu)', en: 'study', note: 'study<u>ied</u>' },
-        { group: 1, pl: 'opieka', en: 'care', note: 'car<u>ed</u>' },
     ],
 ];
 
