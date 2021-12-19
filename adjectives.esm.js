@@ -101,7 +101,7 @@ const adjectivesList = [
         { group: 1, pl: 'zasmucony / zmartwoiny / w złym homorze', en: 'upset', note: '' },
         { group: 1, pl: 'własny', en: 'own', note: '' },
         { group: 1, pl: 'brzydki / szpetny', en: 'ugly', note: '' },
-        { group: 1, pl: 'gładki wygładzony', en: 'smooth', note: '' },
+        { group: 1, pl: 'gładki / wygładzony', en: 'smooth', note: '' },
         { group: 1, pl: 'wąski', en: 'narrow', note: '' },
         { group: 1, pl: 'olbrzymi / ogromny', en: 'huge', note: '' },
         { group: 1, pl: 'pospolity / powszechny / zwykły', en: 'common', note: '' },

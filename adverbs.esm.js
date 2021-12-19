@@ -81,9 +81,10 @@ const adverbsList = [
         { group: 1, pl: 'wczoraj', en: 'yesterday', note: '' },
         { group: 1, pl: 'nie więcej / juź nie (w zaprzeceniu)', en: 'anymore', note: '' },
         { group: 1, pl: 'temu (np. dwie godziny)', en: 'ago', note: '' },
-        { group: 1, pl: 'nagle (szybko i niespodziewanie)', en: 'sudennly', note: '' },
         { group: 1, pl: 'pewnego dnia / kiedyś (w przeszłości)', en: 'someday', note: '' },
         { group: 1, pl: 'następnie / potem', en: 'then', note: '' },
+        { group: 1, pl: 'daleko', en: 'far', note: '' },
+        { group: 1, pl: 'okazjonalnie / od czasu do czasu / sporadycznie', en: 'occasionally', note: '' },
     ],
 ];
 
