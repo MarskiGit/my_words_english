@@ -87,7 +87,8 @@ class ChangeTable {
                 break;
         }
         view.buttonStyle(this.menuLinks, data);
-    };
+    }
+    ;
 }
 
 class View {
@@ -119,37 +120,45 @@ class View {
         this.input.addEventListener('input', this.debounced(this.search, 500));
     }
     clear = () => {
-        const event = { target: { value: '' } };
+        const event = {target: {value: ''}};
         this.input.value = '';
         this.input.focus();
         this.search(event);
-    };
-    plASC = () => {
+    }
+    ;
+            plASC = () => {
         let compare = (a, b) => (a.pl > b.pl ? 1 : b.pl > a.pl ? -1 : 0);
         this.sortArray(compare);
-    };
-    plDSC = () => {
+    }
+    ;
+            plDSC = () => {
         let compare = (a, b) => (a.pl < b.pl ? 1 : b.pl < a.pl ? -1 : 0);
         this.sortArray(compare);
-    };
-    enASC = () => {
+    }
+    ;
+            enASC = () => {
         let compare = (a, b) => (a.en > b.en ? 1 : b.en > a.en ? -1 : 0);
         this.sortArray(compare);
-    };
-    enDSC = () => {
+    }
+    ;
+            enDSC = () => {
         let compare = (a, b) => (a.en < b.en ? 1 : b.en < a.en ? -1 : 0);
         this.sortArray(compare);
-    };
-    irrASC = () => {
+    }
+    ;
+            irrASC = () => {
         let compare = (a, b) => (a.group > b.group ? 1 : b.group > a.group ? -1 : 0);
         this.sortArray(compare);
-    };
-    irrDSC = () => {
+    }
+    ;
+            irrDSC = () => {
         let compare = (a, b) => (a.group < b.group ? 1 : b.group < a.group ? -1 : 0);
         this.sortArray(compare);
-    };
-    search({ target }) {
-        if (this.searchIrregularVerb.length) this.searchIrregularVerb.length = 0;
+    }
+    ;
+            search( { target }) {
+        if (this.searchIrregularVerb.length)
+            this.searchIrregularVerb.length = 0;
 
         let str = target.value.trim().toLowerCase();
 
@@ -191,7 +200,7 @@ class View {
         this.tbody.innerHTML = '';
     }
     Ican = (irregular) => (irregular ? '<i class="far fa-check-circle"></i>' : '');
-    details({ h1, table, note }) {
+            details( { h1, table, note }) {
         document.querySelector('[data-details="h1"]').innerHTML = h1;
         document.querySelector('[data-details="note1"]').innerHTML = table.note1;
         document.querySelector('[data-details="note2"]').innerHTML = table.note2;

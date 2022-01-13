@@ -5,12 +5,16 @@ const idiomList = [
             h1: 'Idiomy',
             table: {
                 note1: 'ANGIELSKI',
-                note2: '',
+                note2: ''
             },
-            note: {},
-        },
+            note: {}
+        }
     ],
-    [{ group: 1, pl: 'zaciskać pasa', en: 'tighten the belt', note: '' }],
+    [
+        {group: 1, pl: 'zaciskać pasa', en: 'tighten the belt', note: ''},
+        {group: 1, pl: 'według przepisow / zgodnie z zasadami', en: 'by the book', note: ''},
+        {group: 1, pl: 'czytać między wierszami', en: 'read between the lines', note: ''}
+    ]
 ];
 
 export default idiomList;

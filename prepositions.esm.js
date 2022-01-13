@@ -22,6 +22,7 @@ const prepositionsList = [
         { group: 1, pl: 'od / od czasu / od tego czasu', en: 'since', note: '' },
         { group: 1, pl: 'wokół / dokoła / naokoło', en: 'around', note: '' },
         { group: 1, pl: 'przez (coś, na drugą stronę)', en: 'across', note: '' },
+        { group: 1, pl: 'z (skądś) / od (czegoś)', en: 'from', note: '' },
     ],
 ];
 export default prepositionsList;

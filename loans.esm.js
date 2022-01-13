@@ -33,6 +33,7 @@ const loansList = [
         { group: 1, pl: 'coś', en: 'something', note: '' },
         { group: 1, pl: 'ten (o przedmiocie w zasiągu ręki', en: 'this', note: '' },
         { group: 1, pl: 'kogo / którego / którch', en: 'whom', note: '' },
+        { group: 1, pl: 'coś / cokolwiek (w pytaniach)', en: 'anything', note: '' },
     ],
 ];
 export default loansList;
