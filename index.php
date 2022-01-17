@@ -29,6 +29,7 @@
             <li><button class="btn_nav" data-btn="idiom">Idiomy</button></li>
             <li><button class="btn_nav" data-btn="number">Liczby</button></li>
             <li><button class="btn_nav" data-btn="conjunction">Spójnik</button></li>
+            <li><button class="btn_nav" data-btn="learning">Nauka</button></li>
         </ul>
     </nav>
     <main>
@@ -48,7 +49,6 @@
         <table>
             <thead>
                 <tr class="sorting">
-                    <th></th>
                     <th>
                         <button type="button" data-pl="ASC"><i class="far fa-caret-square-up"></i></button>
                         <button type="button" data-pl="DSC"><i class="far fa-caret-square-down"></i></button>
@@ -63,10 +63,10 @@
                     </th>
                 </tr>
                 <tr>
-                    <th>lp</th>
                     <th>Polski</th>
                     <th data-details="note1"></th>
                     <th data-details="note2"></th>
+                    <th data-details="note3"></th>
                 </tr>
             </thead>
             <tbody></tbody>

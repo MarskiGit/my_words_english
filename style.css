@@ -129,10 +129,11 @@ th {
 td {
     text-align: center;
     font-weight: 500;
+    vertical-align: middle;
 }
 
 td:nth-child(1) {
-    font-weight: 100;
+    font-weight: 400;
 }
 
 td:nth-child(2) {
@@ -148,10 +149,6 @@ td:nth-child(2) {
 }
 
 /* == TABLE > SORTING == */
-.sorting th:first-child {
-    font-size: 0.8rem;
-    font-weight: 100;
-}
 
 .sorting th {
     font-size: 0.9rem;
@@ -216,6 +213,21 @@ footer span {
 footer span a {
     display: inline;
     color: #ffffff;
+}
+
+.input_earning {
+    background-color: rgba(255, 235, 205, 0.45);
+    width: 60%;
+    height: 1rem;
+    text-align: center;
+    border-radius: 2px;
+}
+
+.incorrect {
+    background-color: rgba(255, 0, 0, 0.3);
+}
+.correct {
+    background-color: rgba(0, 128, 0, 0.3);
 }
 
 /* == MEDIA == */
