@@ -82,6 +82,36 @@
             <span>&#xA9; [ Ten rok ] <a href="https://marski.pl/" target="_blank"> marski.pl</a> </span>
         </div>
     </footer>
+
+    <aside class="score" data-result="score">
+        <p>
+            <span> <i class="fas fa-trophy"></i> </span>
+        </p>
+        <p>
+            <span> <i class="fas fa-thumbs-up"></i> </span>
+            <span data-result="correct"> </span>
+        </p>
+        <p>
+            <span> <i class="fas fa-thumbs-down"></i> </span>
+            <span data-result="incorrect"> </span>
+        </p>
+        <p>
+            <span> <i class="fas fa-percent"></i> </span>
+            <span data-result="percent"> </span>
+        </p>
+        <p>
+            <span> <i class="far fa-window-restore"></i> </span>
+            <span data-result="count"></span>
+        </p>
+        <p>
+            <span> <i class="fas fa-battery-empty"></i> </span>
+            <span data-result="empty"></span>
+        </p>
+
+
+
+
+    </aside>
 </body>
 
 </html>

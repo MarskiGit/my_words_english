@@ -170,6 +170,18 @@ const adjectivesList = [
         { group: 1, pl: 'deszczowy', en: 'rainy', note: '' },
         { group: 1, pl: 'zamknięty', en: 'closed', note: '' },
         { group: 1, pl: 'słoneczny (np dzień) / słonecznie', en: 'sunny', note: '' },
+        { group: 1, pl: 'zajęty (używany przez kogoś)', en: 'occupied', note: '' },
+        { group: 1, pl: 'kwadratowy', en: 'square', note: '' },
+        { group: 1, pl: 'prostokątny', en: 'rectangular', note: '' },
+        { group: 1, pl: 'owalny', en: 'oval', note: '' },
+        { group: 1, pl: 'trójkątny', en: 'triangular', note: '' },
+        { group: 1, pl: 'gróby (o przedmiocie)', en: 'thick', note: '' },
+        { group: 1, pl: 'okrągły (w kształcie koła)', en: 'round', note: '' },
+        { group: 1, pl: 'gruby (o osobie)', en: 'fat', note: '' },
+        { group: 1, pl: 'duży / wielki', en: 'big', note: '' },
+        { group: 1, pl: 'chudy', en: 'thin', note: '' },
+        { group: 1, pl: 'wysoki', en: 'high', note: '' },
+        { group: 1, pl: 'niski', en: 'short', note: '' },
     ],
 ];
 
